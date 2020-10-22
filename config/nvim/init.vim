@@ -6,6 +6,7 @@ function! s:source_rc(rc_file_name)
     endif
 endfunction
 
+execute 'source' expand(g:rc_dir . '/' . 'vim-plug/' . 'plug.vim')
 call s:source_rc('plugins.vim')
 call s:source_rc('common.vim')
 
