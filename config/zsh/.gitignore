@@ -1,0 +1,5 @@
+.resolver
+.zcompdump
+.zcompdump.*
+.zplugin
+.zinit
